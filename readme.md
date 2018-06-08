@@ -71,9 +71,7 @@ Create development folder, note that if you decide to use a different location n
 reference it properly, I am using the folder `dev` inside my home folder.
 
 ```bash
-mkdir ~/dev
-mkdir ~/dev/logs
-mkdir ~/dev/logs/xdebug
+mkdir -pv ~/dev/logs/xdebug
 git clone https://github.com/MikeGarde/php-setup-guide.git ~/dev/php-setup-guide
 ```
 
